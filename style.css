@@ -20,3 +20,42 @@ body {
 	background-color: white;
 	color: #333;
 }
+
+h1 {
+	color: rgb(16, 16, 223);
+}
+
+h2 {
+	color: magenta;
+}
+
+h3 {
+	color: rgb(36, 173, 18);
+	margin: 0.5rem 0;
+}
+
+.container-byt span {
+	padding: 0.5rem;
+}
+
+.container-byt>p:nth-child(odd) span {
+	background-color: rgb(219, 216, 216);
+}
+
+.container {
+	border: 1px solid rgb(36, 173, 18);
+	border-radius: 10px;
+	padding: 1rem 2rem;
+}
+
+.container-2 {
+	margin-top: 1rem;
+}
+
+.registration__name,
+.registration__age {
+	background-color: rgb(231, 219, 241);
+	border: 1px solid blueviolet;
+	border-radius: 10px;
+	padding: 0.5rem;
+}
